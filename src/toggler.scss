@@ -1,0 +1,21 @@
+.btn {
+  height: 37px;
+  width: 360px;
+  font-weight: 600;
+  border-radius: 8px;
+  padding: 8px;
+  text-align: center;
+  background-color: #fff;
+  text-transform: uppercase;
+  cursor: pointer;
+
+  &__hide {
+    color: #ff7f50;
+    border: 3px solid #000;
+  }
+
+  &__show {
+    color: #000;
+    border: 3px solid #ff7f50;
+  }
+}
